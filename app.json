@@ -25,6 +25,36 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "jsx", "ts", "tsx", "svg"]
+    },
+    "extra": {
+      "expo": {
+        "android": {
+          "useNextNotificationsApi": true
+        },
+        "web": {
+          "favicon": "./assets/favicon.png"
+        },
+        "hooks": {
+          "postPublish": [
+            {
+              "file": "sentry-expo/upload-sourcemaps",
+              "config": {
+                "organization": "your-organization-name",
+                "project": "your-project-name",
+                "authToken": "your-auth-token"
+              }
+            }
+          ]
+        },
+        "assetBundlePatterns": ["**/*"]
+      },
+      "packager": {
+        "assetExts": ["ttf", "otf"]
+      }
     }
   }
 }
