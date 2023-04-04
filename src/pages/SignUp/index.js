@@ -1,8 +1,9 @@
 import React from 'react'
 import { StatusBar } from 'expo-status-bar';
 import { Box, Title, Text, Spacer, Button, Input } from '../../components'
+import { Touchable } from '../../components/index';
 
-const SignIn = () => {
+const SignIn = ({navigation}) => {
 
     return (
         <>
@@ -23,7 +24,10 @@ const SignIn = () => {
           <Text color='light'> Create new account</Text>
         </Button>
 
+        <Touchable  onPress={() => navigation.navigate('SignIn')}>
         <Text underline >Back to SignIn</Text>
+
+        </Touchable>
         </Box>
         </>
     )

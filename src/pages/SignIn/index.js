@@ -1,11 +1,11 @@
 import React from 'react'
 import { StatusBar } from 'expo-status-bar';
-import { Box, Title, Text, Spacer, Button, Input } from '../../components'
+import { Box, Title, Text, Spacer, Button, Input, Touchable } from '../../components'
 
 import { FontAwesome } from '@expo/vector-icons';
 
 
-const SignUp = () => {
+const SignUp = ({navigation}) => {
 
     return (
       <>
@@ -28,7 +28,9 @@ const SignUp = () => {
           <Text color='light'> SignIn into my account</Text>
         </Button>
 
+        <Touchable onPress={() => navigation.navigate('SignUp')}>
         <Text underline >Create new account</Text>
+        </Touchable>
 
   
         </Box>

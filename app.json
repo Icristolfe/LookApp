@@ -21,14 +21,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.cristolfe.LookApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "packagerOpts": {
       "config": "metro.config.js",
-      "sourceExts": ["js", "jsx", "ts", "tsx", "svg"]
+      "sourceExts": [
+        "js",
+        "jsx",
+        "ts",
+        "tsx",
+        "svg"
+      ]
     },
     "extra": {
       "expo": {
@@ -50,10 +57,18 @@
             }
           ]
         },
-        "assetBundlePatterns": ["**/*"]
+        "assetBundlePatterns": [
+          "**/*"
+        ]
       },
       "packager": {
-        "assetExts": ["ttf", "otf"]
+        "assetExts": [
+          "ttf",
+          "otf"
+        ]
+      },
+      "eas": {
+        "projectId": "8a10eb00-27a0-488c-9d7a-f56e38fdcefa"
       }
     }
   }
