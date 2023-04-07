@@ -5,7 +5,7 @@ import Story from '.'
 const StoryList = () => {
     return (
             <Box height="260px" fluid>
-            <Box fluid row justify="space-between" height="60px" hasPadding>
+            <Box fluid row justify="space-between" height="70px" hasPadding>
             <Text weight={900} color="dark"> Stories</Text>
             
             <Text weight={600} color="danger"> Show All</Text>

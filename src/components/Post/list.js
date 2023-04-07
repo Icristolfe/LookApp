@@ -7,7 +7,7 @@ const PostList = () => {
     return (
     
             <Box>
-                {Array.from(Array(40))?.map(item => (
+                {Array.from(Array(20))?.map(item => (
                     <Box key={Math.random()} >
                       < Post />
                     </Box>

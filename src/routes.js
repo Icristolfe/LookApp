@@ -8,7 +8,10 @@ import SignUp from '../src/pages/SignUp'
 import SignIn from '../src/pages/SignIn'
 import Feed from '../src/pages/Feed'
 
+
 const Stack = createStackNavigator();
+
+
 
 const Routes = () => {
     return (

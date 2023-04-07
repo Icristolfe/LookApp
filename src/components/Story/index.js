@@ -12,7 +12,7 @@ const Story = () => {
         spacing="0px 5px 0px"
         width="150px"
         >
-            <Cover width="100%"height="100%" image="https://icon-library.com/images/icon-developer/icon-developer-12.jpg">
+            <Cover fluid height="100%" image="https://icon-library.com/images/icon-developer/icon-developer-12.jpg">
                 <Box justify="space-between" fluid hasPadding background={`${colors.dark}80`} >
                 <Cover border={`solid 1px ${colors.light}`} width="40px" height="40px" circle image="https://icon-library.com/images/icon-developer/icon-developer-12.jpg" />
                 <Box height="50px" justify="flex-end" >

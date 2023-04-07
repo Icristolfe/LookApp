@@ -10,7 +10,11 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import { colors } from '../../styles/theme.json'
 
+import { useNavigation } from "@react-navigation/native";
+
 const Header = ({title}) => {
+
+    const { goBack } = useNavigation()
     return (
         <>
         <StatusBar style="auto"/>

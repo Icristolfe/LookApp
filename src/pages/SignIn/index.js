@@ -2,16 +2,17 @@ import React from 'react'
 import { StatusBar } from 'expo-status-bar';
 import { Box, Title, Text, Spacer, Button, Input, Touchable } from '../../components'
 
-import { FontAwesome } from '@expo/vector-icons';
 
 
 const SignUp = ({navigation}) => {
+
 
     return (
       <>
        <StatusBar style="auto" />
         <Box background="light" align="center" justify="center" hasPadding>
 
+            <Spacer size="60px"/>
             <Title weight="900" variant="homeTitle" bold color="dark">LOOKAPP</Title>
              <Spacer size="60px"/>
 
@@ -24,7 +25,9 @@ const SignUp = ({navigation}) => {
             <Input placeholder="Password" secureTextEntry />
             <Spacer size="40px" /> 
 
-        <Button  spacing="0px 0px 30px 0px" block background="danger">
+        <Button  onPress={() => navigation.replace('Feed')}
+        spacing="0px 0px 30px 0px" block background="danger"
+        >
           <Text color='light'> SignIn into my account</Text>
         </Button>
 

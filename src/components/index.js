@@ -132,10 +132,10 @@ export const Cover = styled.ImageBackground.attrs(props => ({
     uri: props.image,
   } : props.source, resizeMode: "cover",
 }))`
-  width: ${(props) => (props.fluid ? "100%" : props.width || "auto")};
-  max-width: ${(props) => (props.fluid ? "100%" : props.width || "auto")};
-  height: ${(props) => props.height || "auto"};
-  max-height: ${(props) => props.height || "auto"};
+  width: ${ props => (props.fluid ? "100%" : props.width || "auto")};
+  max-width: ${ props => (props.fluid ? "100%" : props.width || "auto")};
+  height: ${ props => props.height || "auto"};
+  max-height: ${ props => props.height || "auto"};
   margin: ${props => props.spacing || "0px"};
   border-radius: ${props => props.radius || (props.circle ? props.width || "60px" : "3px")};
   border: ${props => props.border || "none"};

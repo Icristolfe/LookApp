@@ -1,6 +1,6 @@
 import React from "react";
-import { Box, Text, Title, Cover, Touchable, Spacer }
-from "..";import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { Box, Text, Title, Cover, Touchable, Spacer } from "..";
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { SimpleLineIcons } from '@expo/vector-icons';
 
 
