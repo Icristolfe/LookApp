@@ -5,7 +5,6 @@ import { colors } from '../../styles/theme.json'
 const Story = () => {
     return (
         <Touchable
-        onPress={() => alert('ola')}
         background="black"
         radius="10px"
         height="190px"

@@ -28,7 +28,7 @@ const SignIn = ({navigation}) => {
           <Text color='light'> Create new account</Text>
         </Button>
 
-        <Touchable onPress={() => goBack()}>
+        <Touchable height="30px" onPress={() => goBack()}>
         <Text underline >Back to Home</Text>
 
         </Touchable>

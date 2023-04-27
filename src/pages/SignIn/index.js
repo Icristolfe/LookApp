@@ -31,7 +31,7 @@ const SignUp = ({navigation}) => {
           <Text color='light'> SignIn into my account</Text>
         </Button>
 
-        <Touchable onPress={() => navigation.navigate('SignUp')}>
+        <Touchable height="30px" onPress={() => navigation.navigate('SignUp')}>
         <Text underline >Create new account</Text>
         </Touchable>
 
