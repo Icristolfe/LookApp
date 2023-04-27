@@ -10,7 +10,7 @@
 
 ``Aplicação em construção ``
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/196553482@N03/52851987948/in/dateposted-public/" title="port9"><img src="https://live.staticflickr.com/65535/52851987948_e1cdd5a0a7_o.png" width="400" height="800" alt="port9"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/196553482@N03/52851987948/in/dateposted-public/" title="port9"><img src="https://live.staticflickr.com/65535/52851987948_e1cdd5a0a7_o.png" width="400" height="800" alt="port9"/></a>
 
 ## Criador do Projeto
 <table>
