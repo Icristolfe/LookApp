@@ -12,6 +12,7 @@ import Home from '../src/pages/Home'
 import SignUp from '../src/pages/SignUp'
 import SignIn from '../src/pages/SignIn'
 import Feed from '../src/pages/Feed'
+import Orders from '../src/pages/Orders'
 import Cart from '../src/pages/Cart'
 
 import Marketplace from "./pages/Marketplace";
@@ -37,7 +38,7 @@ const CustomDrawerComponent = (props) => {
 const DrawerComponent = () => {
   return (
     <Drawer.Navigator
-      initialRouteName="Feed" 
+      initialRouteName="Orders" 
       drawerContent={props =>  <CustomDrawerComponent {...props} />}
       screenOptions={{
         drawerActiveBackgroundColor: colors.primary ,
@@ -72,7 +73,7 @@ const DrawerComponent = () => {
 
     <Drawer.Screen 
         name="Orders" 
-        component={Home} 
+        component={Orders} 
         options={{ headerShown: false, drawerStyle: {
           backgroundColor: colors.darkDrawer,
         },
@@ -91,7 +92,7 @@ const DrawerComponent = () => {
 const Routes = () => {
     return (
     <NavigationContainer>
-        <Stack.Navigator initialRouteName="Feed">
+        <Stack.Navigator initialRouteName="Orders">
       <Stack.Screen
       options={{
         headerShown: false

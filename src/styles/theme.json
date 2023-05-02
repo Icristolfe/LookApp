@@ -2,6 +2,7 @@
     "colors":{
       "primary":"#EB002B",
       "light":"#FFFFFF",
+      "discountColor": "#00C48C",
       "secondary": "#6AB04C",
       "warning":"#F9CA24",
       "danger":"#EB001B",
