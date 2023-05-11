@@ -38,7 +38,7 @@ const CustomDrawerComponent = (props) => {
 const DrawerComponent = () => {
   return (
     <Drawer.Navigator
-      initialRouteName="Orders" 
+      initialRouteName="Home" 
       drawerContent={props =>  <CustomDrawerComponent {...props} />}
       screenOptions={{
         drawerActiveBackgroundColor: colors.primary ,
@@ -92,12 +92,12 @@ const DrawerComponent = () => {
 const Routes = () => {
     return (
     <NavigationContainer>
-        <Stack.Navigator initialRouteName="Orders">
+        <Stack.Navigator initialRouteName="Home">
       <Stack.Screen
       options={{
         headerShown: false
       }}
-      name="Home" component={DrawerComponent} />
+      name="Home" component={Home} />
 
   <Stack.Screen
       options={{

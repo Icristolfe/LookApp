@@ -22,7 +22,10 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.cristolfe.LookApp"
+      "package": "com.cristolfe.LookApp",
+      "blockedPermissions": ["android.permission.RECORD_AUDIO"],
+      "usesCleartextTraffic": true,
+      "uses-permission android": "name"
     },
     "web": {
       "favicon": "./assets/favicon.png"
